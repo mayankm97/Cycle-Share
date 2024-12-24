@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193173607342",
+    "project_id": "cycle-share-b2f29",
+    "storage_bucket": "cycle-share-b2f29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193173607342:android:1398f4c51a75219af3ae3f",
+        "android_client_info": {
+          "package_name": "com.example.cycleshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193173607342-qnls970s3tbsm822tpbmqpgpop897vkj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cycleshare",
+            "certificate_hash": "86b17d9a6cb936a30e2d524da0b4b282636ffb07"
+          }
+        },
+        {
+          "client_id": "193173607342-6dhgcr1dkcvt0tu3fitqdenj8euupho2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgC3zcSbOsbuXoj1J-Arn2g0GRvJ42hmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193173607342-6dhgcr1dkcvt0tu3fitqdenj8euupho2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

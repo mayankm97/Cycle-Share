@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193173607342",
+    "project_id": "cycle-share-b2f29",
+    "storage_bucket": "cycle-share-b2f29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193173607342:android:1398f4c51a75219af3ae3f",
+        "android_client_info": {
+          "package_name": "com.example.cycleshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgC3zcSbOsbuXoj1J-Arn2g0GRvJ42hmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
