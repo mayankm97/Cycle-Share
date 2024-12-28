@@ -4,7 +4,7 @@
     package="com.example.cycleshare" >
 
     <application
-        android:name=".Others.CycleShare"
+        android:name=".otherFiles.CycleShare"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.CycleShare"
         tools:targetApi="31">
         <activity
-            android:name=".Others.MainActivity"
+            android:name=".otherFiles.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CycleShare">
