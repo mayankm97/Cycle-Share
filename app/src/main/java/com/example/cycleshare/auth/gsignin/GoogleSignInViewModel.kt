@@ -2,17 +2,14 @@ package com.example.cycleshare.auth.gsignin
 
 import android.content.Context
 import android.util.Log
-import android.widget.Toast
 import androidx.credentials.CredentialManager
 import androidx.credentials.CustomCredential
 import androidx.credentials.GetCredentialRequest
 import androidx.credentials.exceptions.GetCredentialCancellationException
-import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.NavController
-import com.example.cycleshare.Others.Routes
+import com.example.cycleshare.otherFiles.Routes
 import com.example.cycleshare.R
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential

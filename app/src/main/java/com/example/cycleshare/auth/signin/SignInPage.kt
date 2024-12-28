@@ -1,9 +1,7 @@
 package com.example.cycleshare.auth.signin
 
-import android.util.Log
 import android.widget.Toast
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -23,7 +21,6 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -33,9 +30,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.input.PasswordVisualTransformation
@@ -48,13 +43,10 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.cycleshare.R
-import com.example.cycleshare.Others.Routes
+import com.example.cycleshare.otherFiles.Routes
 import com.example.cycleshare.auth.gsignin.GoogleSignInViewModel
-import com.example.cycleshare.ui.theme.accent1eco
-import com.example.cycleshare.ui.theme.background1eco
 import com.example.cycleshare.ui.theme.background1neon
 import com.example.cycleshare.ui.theme.background2neon
-import com.example.cycleshare.ui.theme.primary2neon
 
 @Composable
 fun SignInScreen(navController: NavController, googleSignInViewModel: GoogleSignInViewModel = hiltViewModel()) {

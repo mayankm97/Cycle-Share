@@ -1,4 +1,4 @@
-package com.example.cycleshare.Others
+package com.example.cycleshare.otherFiles
 
 object Routes {
     var signUpScreen = "signup"

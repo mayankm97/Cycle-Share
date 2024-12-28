@@ -1,4 +1,4 @@
-package com.example.cycleshare.Others
+package com.example.cycleshare.otherFiles
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
@@ -10,7 +10,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.cycleshare.auth.gsignin.GoogleSignInViewModel
 import com.example.cycleshare.auth.signin.SignInScreen
 import com.example.cycleshare.auth.signup.SignUpScreen
-import com.example.cycleshare.MainApp.HomeScreen
+import com.example.cycleshare.mainAppScreens.BottomNav
 import com.google.firebase.auth.FirebaseAuth
 
 @Composable
@@ -30,7 +30,7 @@ fun MyAppNavs(paddingValues: PaddingValues) {
             //googleSignInViewModel.handleGoogleSignIn(context,navController)
         }
         composable(Routes.homeScreen) {
-            HomeScreen(navController, googleSignInViewModel)
+            BottomNav(navController, googleSignInViewModel)
         }
     })
 }

@@ -1,4 +1,4 @@
-package com.example.cycleshare.MainApp.appScreens
+package com.example.cycleshare.mainAppScreens.appScreens
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

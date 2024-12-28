@@ -2,36 +2,27 @@ package com.example.cycleshare.auth.signup
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.ui.Alignment
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
 import com.example.cycleshare.R
-import com.example.cycleshare.Others.Routes
+import com.example.cycleshare.otherFiles.Routes
 import com.example.cycleshare.auth.gsignin.GoogleSignInViewModel
-import com.example.cycleshare.auth.signin.SignInScreen
-import com.example.cycleshare.ui.theme.accent1eco
-import com.example.cycleshare.ui.theme.background1eco
 import com.example.cycleshare.ui.theme.background1neon
 import com.example.cycleshare.ui.theme.background2neon
-import com.example.cycleshare.ui.theme.primary2neon
 
 @Composable
 fun SignUpScreen(navController: NavController, googleSignInViewModel: GoogleSignInViewModel = hiltViewModel()) {

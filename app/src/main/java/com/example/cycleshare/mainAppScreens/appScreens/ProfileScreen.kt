@@ -1,4 +1,4 @@
-package com.example.cycleshare.MainApp.appScreens
+package com.example.cycleshare.mainAppScreens.appScreens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -14,12 +14,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.example.cycleshare.auth.gsignin.GoogleSignInViewModel
-import com.example.cycleshare.MainApp.ProfileItem
 import com.google.firebase.auth.FirebaseAuth
 
 
@@ -65,4 +65,8 @@ fun MainContent(navController: NavController, modifier: Modifier) {
 
         }
     }
+}
+@Composable
+fun ProfileItem(title: String) {
+    Text(text = title, style = TextStyle(fontSize = 18.sp))
 }
